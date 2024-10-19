@@ -7,78 +7,70 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Numero Magico</title>
 </head>
-<body style="background-color:yellowgreen ">
+<body style="background-color:#b8f6bc ">
     
-    <div class="container">
-
+    <h1>INDOVINA IL NUMERO</h1>
         
-        <div class="row">
 
-          <div class="col-8 offset-4">
-            <h1>INDOVINA IL NUMERO</h1>
-          </div>
-          
+
+        <div class="contliste">
+            <div class="liste">  
+                <ol>
+                    <li>Il computer sceglierà segretamente un numero intero casuale tra 1 e <br>100.</li>
+
+                    <li>Il tuo obiettivo è indovinare questo numero segreto nel minor numero<br> di tentativi possibile.</li>
+
+                    <li>Ad ogni tentativo, inserisci un numero e il computer ti darà un indizio:</li>
+                        
+                </ol>
+
+                <ul>
+                    <li>Se il tuo numero è troppo basso, ti dirà "Troppo basso, prova un<br> numero più alto!"</li>
+
+                    <li>Se il tuo numero è troppo alto, ti dirà "Troppo alto, prova un numero<br> più basso!"</li>
+
+                    <li>Se indovini il numero esatto, vincerai la partita!</li>
+
+                </ul>
+
+                <ol>
+                    <li>Continua a fare tentativi finché non indovini il numero magico.</li>
+
+                    <li>Alla fine del gioco, ti verrà mostrato il numero di tentativi che hai<br> impiegato per indovinare.</li>
+
+                    <li>Sfida te stesso a indovinare il numero con il minor numero di tentativi<br> possibile!</li>
+                </ol>
+            </div>
         </div>
 
-        <div class="row">
-            
-            <div class="col-5 offset-4">
-
-
-                <div class="liste">  <!--LISTE-->
-                    <ol>
-                        <li>Il computer sceglierà segretamente un numero intero casuale tra 1 e <br>100.</li>
-
-                        <li>Il tuo obiettivo è indovinare questo numero segreto nel minor numero<br> di tentativi possibile.</li>
-
-                        <li>Ad ogni tentativo, inserisci un numero e il computer ti darà un indizio:</li>
-                        
-                    </ol>
-
-                    <ul>
-                        <li>Se il tuo numero è troppo basso, ti dirà "Troppo basso, prova un<br> numero più alto!"</li>
-
-                        <li>Se il tuo numero è troppo alto, ti dirà "Troppo alto, prova un numero<br> più basso!"</li>
-
-                        <li>Se indovini il numero esatto, vincerai la partita!</li>
-
-                    </ul>
-
-                    <ol>
-                        <li>Continua a fare tentativi finché non indovini il numero magico.</li>
-
-                        <li>Alla fine del gioco, ti verrà mostrato il numero di tentativi che hai<br> impiegato per indovinare.</li>
-
-                        <li>Sfida te stesso a indovinare il numero con il minor numero di tentativi<br> possibile!</li>
-                    </ol>
-                </div>
-
             </div>
             
-          </div>
-<!---->
-          <div class="row">
-
-            <div class="col offset-5">
 
 
-                <div class="inserimenti">   <!--FASE INPUT-->
-   
-                    <p>Inserisci il numero magico</p>
+                <div class="continput">   <!--FASE INPUT-->
+                    <div class="input">
+                        <div class="elementi">
+                            <p>Inserisci il numero magico</p>
 
-                    <form action="" method="get">  
 
-                    <input id="guess" type="number" name="casella" value="0">     
-                    <input id="button" type="button" name="pulsante" value="Indovina">  
-
-                    </form>
-
+                            <form action="" method="get">  
+                                <input id="guess" type="number" name="casella" value="">     
+                                <input id="button" type="button" name="pulsante" value="INDOVINA">  
+                            </form>
+                            </div>
+                    </div>
                 </div>
 
-            </div>
-            
-          </div>
-      </div>
 
+
+            <div class="inner">
+                <p id="altobasso"></p>
+                <p id="tentativi">Hai ancora&nbsp; <span id="tent">5</span> &nbsp;tentativi</p>
+    
+            </div>
+
+
+            
+            <script src="static/js/index.js"></script>
 </body>
 </html>

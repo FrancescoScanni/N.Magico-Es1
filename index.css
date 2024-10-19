@@ -1,22 +1,99 @@
-
 h1{
+    display: flex;
+    justify-content: center;
     color: black;
     font-size: 50px;
     font-weight: bold;
-    margin-top:150px;
-    padding: 0px;
+    margin-top:150px;    
 }
 
-.liste{
+
+.contliste{
+    display: flex;
+    justify-content: center;
     padding-top: 50px;
+    padding-left: 0px;
 }
 
 ol,ul{
-    padding:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 16px;
+    padding: 0px;
+    margin: 0px;
     color:black
 }
 
-.inserimenti{
+
+
+.continput{
+    display: flex;
+    justify-content: center;
     padding-top:80px;
 }
+
+#guess{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    border: 0px;
+}
+
+.elementi>p{
+    margin: 0px;
+}
+
+.elementi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#button{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 350px;
+    height: 60px;
+    background-color: #3AE3A8;
+    border-radius: 5px;
+    border-color: white;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.inner{
+    padding-top: 20px;
+}
+
+#tentativi,#tent{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+#altobasso{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
