@@ -1,0 +1,25 @@
+.continput{
+    display: flex;
+    justify-content: center;
+    padding-top:80px;
+}
+
+#guess{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: white;
+    border: 0px;
+}
+
+.elementi>p{
+    margin: 0px;
+}
+
+.elementi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

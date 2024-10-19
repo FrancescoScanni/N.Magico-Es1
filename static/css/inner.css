@@ -1,0 +1,16 @@
+.inner{
+    padding-top: 20px;
+}
+
+#tentativi,#tent{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+
+#altobasso{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
