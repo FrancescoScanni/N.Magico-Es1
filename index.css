@@ -5,8 +5,35 @@
 @import "inner.css";
 @import "input.css";
 
+#prova{
+    width: 100vw;
+    height: 100vh;
+}
+
+#body{
+    
+    width: 100vw;
+    height: 100vh;
+    
+}
 
 
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+#prova{
+    transition: all 2s;   /*si cambiano le proprietà con transizione di 2 sec */
+}
 
 
 

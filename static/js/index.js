@@ -10,7 +10,8 @@
         let x=1
         let altobasso=0
         let tentativi=0
-        let img=0
+        
+        let elemento=document.querySelector("#prova")
         
         
         function generateRandomInteger(min, max) {   //applico i parametri 0 e 100 (qui 1 è escluso)
@@ -58,6 +59,7 @@
                         console.log("Fine")
                         puls.removeEventListener("click", checkGuess);   //rimozione EL per rendere inattivo il pulsante
                         giusto=true
+                        elemento.classList.add("green")
                         return
                         }
                     
@@ -88,7 +90,7 @@
                     tentativi=document.getElementById("tentativi")
                     tentativi.innerHTML="Fine."
                     altobasso.innerHTML="Tentativi esauriti, non sei riuscito ad indovinare il numero misterioso ("+casualNumber+")."
-
+                    elemento.classList.add("red")
                     puls.removeEventListener("click", checkGuess);
                     
                     return
