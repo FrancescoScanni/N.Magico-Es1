@@ -6,8 +6,8 @@
         let takes=0  //tentativi
         let giusto=false   //booleana per verificare la correttezza della risposta
         const min=0   //valore modificabile solo dalla dichiarazione
-        const max=10 //valore modificabile solo dalla dichiarazione
-        let x=0
+        const max=100 //valore modificabile solo dalla dichiarazione
+        let x=1
         let altobasso=0
         let tentativi=0
         let img=0
