@@ -5,35 +5,40 @@
 @import "inner.css";
 @import "input.css";
 
-#prova{
+
+
+body{
+    background-color:#b8f6bc;
     width: 100vw;
     height: 100vh;
 }
 
-#body{
-    
-    width: 100vw;
-    height: 100vh;
-    
+
+.green-1error{
+    background-color:rgb(227, 248, 125);
+}
+
+.green-2errors{
+    background-color: #FFEB3B;
+}
+
+.yellow-3errors{
+    background-color: #FFC107;
+}
+
+.yellow-4errors{
+    background-color: #FF5722;
 }
 
 
-
-.green{
-    background-color: green;
+.red-end{
+    background-color: #e92e2e;
 }
 
-.yellow{
-    background-color: yellow;
+body{
+    transition: all 1.5s;   /*si cambiano le proprietà con transizione di 2 sec */
 }
 
-.red{
-    background-color: red;
-}
-
-#prova{
-    transition: all 2s;   /*si cambiano le proprietà con transizione di 2 sec */
-}
 
 
 
